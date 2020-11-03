@@ -141,4 +141,3 @@ where p.ponente_id in (
   on co.congreso_id = cu.congreso_id
   where co.nombre = '<ALGUN-NOMBRE-CONGRESO>'
 )
-  
