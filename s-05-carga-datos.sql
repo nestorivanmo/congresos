@@ -157,3 +157,5 @@ insert into Financiamiento (empresa_id, congreso_id, monto) values (89, 67, 4269
 insert into Financiamiento (empresa_id, congreso_id, monto) values (1, 18, 149852892.1);
 insert into Financiamiento (empresa_id, congreso_id, monto) values (29, 20, 47837046.5);
 insert into Financiamiento (empresa_id, congreso_id, monto) values (89, 45, 650262211.35);
+
+
