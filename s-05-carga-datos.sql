@@ -7,13 +7,13 @@
 -- Inserción Colonia
 
 insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (31, 'LOMAS DE CHAPULTEPEC', '142672');
-insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (85, 'VALENTIN GOMEZ FARIAS', 'SY4');
+insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (85, 'VALENTIN GOMEZ FARIAS', '890');
 insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (85, 'EL CARMEN', '5307');
-insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (90, 'SAN JUAN TEPENAHUAC (PBLO)', '46900-000');
-insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (60, 'EX EJIDOS DE LA MAGDALENA MIXIHUCA', '43-200');
-insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (13, 'TAXQUEA', '691 06');
-insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (70, 'LORETO', null);
-insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (51, 'GAMA GAVILAN (U HAB)', '78-210');
+insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (90, 'SAN JUAN TEPENAHUAC (PBLO)', '46900000');
+insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (60, 'EX EJIDOS DE LA MAGDALENA MIXIHUCA', '43200');
+insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (13, 'TAXQUEA', '69106');
+insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (70, 'LORETO', '8901');
+insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (51, 'GAMA GAVILAN (U HAB)', '7810');
 insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (24, 'SAN MIGUEL TEOTONGO I', '9213');
 insert into Colonia (colonia_id, nombre_colonia, codigo_postal) values (87, 'LOMAS QUEBRADAS', '6052');
 
