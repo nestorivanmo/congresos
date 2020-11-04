@@ -94,16 +94,16 @@ insert into Ponente (ponente_id, primer_nombre_ponente, segundo_nombre_ponente, 
 
 -- Inserción Ponencia
 
-insert into  (ponencia_id, nombre_ponencia) values (325, 'Schmeler, Renner and Reilly');
-insert into  (ponencia_id, nombre_ponencia) values (319, 'Toy, Christiansen and Skiles');
-insert into  (ponencia_id, nombre_ponencia) values (352, 'O''Kon-Jacobi');
-insert into  (ponencia_id, nombre_ponencia) values (592, 'Blanda, Frami and Bogisich');
-insert into  (ponencia_id, nombre_ponencia) values (103, 'Schumm, Cartwright and Corwin');
-insert into  (ponencia_id, nombre_ponencia) values (992, 'Goodwin-Breitenberg');
-insert into  (ponencia_id, nombre_ponencia) values (335, 'Lubowitz, Batz and Buckridge');
-insert into  (ponencia_id, nombre_ponencia) values (781, 'Yundt Group');
-insert into  (ponencia_id, nombre_ponencia) values (276, 'Buckridge Inc');
-insert into  (ponencia_id, nombre_ponencia) values (595, 'Bradtke, Jones and Franecki');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (325, 'Schmeler, Renner and Reilly');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (319, 'Toy, Christiansen and Skiles');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (352, 'O''Kon-Jacobi');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (592, 'Blanda, Frami and Bogisich');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (103, 'Schumm, Cartwright and Corwin');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (992, 'Goodwin-Breitenberg');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (335, 'Lubowitz, Batz and Buckridge');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (781, 'Yundt Group');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (276, 'Buckridge Inc');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (595, 'Bradtke, Jones and Franecki');
 
 -- Inserción Agenda Ponencia
 
