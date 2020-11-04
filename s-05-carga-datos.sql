@@ -53,16 +53,16 @@ insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (nextval('Lugar
 insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (nextval('Lugar_seq'), 'Rice-Brown', 6);
 
 -- Inserción Congreso
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Finance', '2019-12-29 15:29:34', '2020-02-27 14:25:38', 7);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Health Care', '2020-06-30 03:22:43', '2020-07-12 22:34:47', 1);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Technology', '2020-10-18 01:26:37', '2020-10-24 19:21:35', 2);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Technology', '2019-12-30 19:38:27', '2019-12-31 14:46:22', 3);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Cars and Bikes', '2020-05-01 22:05:13', '2020-05-02 16:30:48', 4);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Technology', '2019-12-03 15:38:53', '2020-03-10 15:35:35', 5);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Health Care', '2020-06-02 23:09:47', '2020-07-29 09:46:18', 6);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Health Care', '2020-05-22 18:05:34', '2020-06-29 13:21:39', 10);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Capital Goods', '2020-05-06 14:08:43', '2020-05-10 13:45:40', 8);
-insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congres_seq'), 'Public Utilities', '2020-03-11 10:57:32', '2020-03-21 12:47:58', 9);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Finance', '2019-12-29 15:29:34', '2020-02-27 14:25:38', 7);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Health Care', '2020-06-30 03:22:43', '2020-07-12 22:34:47', 1);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Technology', '2020-10-18 01:26:37', '2020-10-24 19:21:35', 2);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Technology', '2019-12-30 19:38:27', '2019-12-31 14:46:22', 3);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Cars and Bikes', '2020-05-01 22:05:13', '2020-05-02 16:30:48', 4);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Technology', '2019-12-03 15:38:53', '2020-03-10 15:35:35', 5);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Health Care', '2020-06-02 23:09:47', '2020-07-29 09:46:18', 6);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Health Care', '2020-05-22 18:05:34', '2020-06-29 13:21:39', 10);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Capital Goods', '2020-05-06 14:08:43', '2020-05-10 13:45:40', 8);
+insert into Congreso (congreso_id, nombre_congreso, fecha_inicio, fecha_terminacion, lugar_id) values (nextval('Congreso_seq'), 'Public Utilities', '2020-03-11 10:57:32', '2020-03-21 12:47:58', 9);
 
 -- Inserción Institución
 insert into Institucion (institucion_id, nombre_institucion, domicilio_id) values (nextval('Institucion_seq'), 'Wiza-Thompson', 5);
@@ -102,16 +102,16 @@ insert into  Ponencia (ponencia_id, nombre_ponencia) values (nextval('Ponencia_s
 
 -- Inserción Agenda Ponencia
 
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (1, 9, 6, '21:19:18', '21:23:09', 4);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 4, 8, '05:30:43', '19:46:54', 30);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (1, 8, 1, '17:27:28', '23:43:39', 38);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (4, 2, 0, '08:11:21', '22:23:40', 6);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 1, 9, '19:46:51', '15:16:44', 23);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 7, 7, '06:39:47', '11:32:53', 37);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 6, 2, '19:12:47', '22:59:55', 16);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (1, 2, 5, '00:45:40', '17:50:38', 6);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (2, 3, 4, '20:30:08', '09:47:37', 26);
-insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (4, 1, 4, '00:21:30', '17:24:39', 7);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (1, 9, 6, '2020-01-01 21:19:18', '2020-01-02 21:23:09', 4);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 4, 8, '2020-02-10 05:30:43', '2020-02-11 19:46:54', 30);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (1, 8, 1, '2020-03-01 17:27:28', '2020-03-02 23:43:39', 38);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (4, 2, 3, '2020-03-01 08:11:21', '2020-03-03 22:23:40', 6);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 1, 9, '2020-04-01 12:46:51', '2020-04-02 15:16:44', 23);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 7, 7, '2020-04-01 06:39:47', '2020-04-01 11:32:53', 37);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (6, 6, 2, '2020-05-01 09:12:47', '2020-05-01 22:59:55', 16);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (1, 2, 5, '2020-06-01 07:45:40', '2020-06-01 17:50:38', 6);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (2, 3, 4, '2020-07-01 20:30:08', '2020-07-02 09:47:37', 26);
+insert into AgendaPonencia (congreso_id, ponente_id, ponencia_id, hora_inicio, hora_fin, num_cuartillas) values (4, 1, 4, '2020-08-01 08:21:30', '2020-08-01 17:24:39', 7);
 
 -- Inserción País
 insert into Pais (pais_id, nombre_pais) values (nextval('Pais_seq'), 'México');
@@ -139,13 +139,13 @@ insert into Empresa (empresa_id, nombre_empresa, pais_id) values (nextval('Empre
 insert into Empresa (empresa_id, nombre_empresa, pais_id) values (nextval('Empresa_seq'), 'Dicki-Wilderman', 8);
 
 -- Inserción Financiamiento
-insert into Financiamiento (empresa_id, congreso_id, monto) values (4, 3, 912342.46);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (3, 6, 806416.95);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (1, 2, 2295975.41);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (2, 4, 113214.63);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (6, 4, 9787032.23);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (7, 8, 6137021.89);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (9, 7, 426095.42);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (1, 1, 14892.1);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (2, 2, 47046.5);
-insert into Financiamiento (empresa_id, congreso_id, monto) values (9, 5, 650211.35);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (1, 10, 912342.46);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (2, 9, 806416.95);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (3, 8, 2295975.41);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (4, 7, 113214.63);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (5, 6, 9787032.23);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (6, 5, 6137021.89);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (7, 4, 426095.42);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (8, 3, 14892.1);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (9, 2, 47046.5);
+insert into Financiamiento (empresa_id, congreso_id, monto) values (10, 1, 650211.35);

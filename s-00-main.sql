@@ -6,3 +6,11 @@
 
 \i s-01-creacion-bd.sql
 \i s-02-entidades.sql
+\i s-03-secuencias.sql
+\i s-04-indices.sql
+\i s-05-carga-datos.sql
+\i s-06-sp-inserta.sql
+\i s-06-sp-actualiza.sql
+\i s-06-sp-borrado.sql
+--\i s-07-triggers.sql
+--\i s-08-consultas.sql

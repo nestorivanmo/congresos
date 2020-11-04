@@ -20,11 +20,11 @@ CREATE TABLE Domicilio (
         CONSTRAINT Domicilio_pk PRIMARY KEY,    
     calle VARCHAR(50) NOT NULL, 
     numero_exterior VARCHAR(10) NOT NULL,
-    numero_interior VARCHAR(10) NOT NULL,
-    colonia_id NUMERIC(10, 0),
+    numero_interior VARCHAR(10) NULL,
+    colonia_id NUMERIC(10, 0) NOT NULL,
     CONSTRAINT DOMICILIO_colonia_id_fk 
         FOREIGN KEY (colonia_id)
-        REFERENCES Colonia(colonia_id) 
+        REFERENCES Colonia(colonia_id)
 );
 
 -- Creacion Lugar
@@ -113,8 +113,11 @@ CREATE TABLE AgendaPonencia (
         REFERENCES Ponente (ponente_id),
     CONSTRAINT PONENCIA_ponencia_id_fk
         FOREIGN KEY (ponencia_id)
-        REFERENCES Ponencia(ponencia_id)
+        REFERENCES Ponencia(ponencia_id),
+    CONSTRAINT horario_chk
+        CHECK (hora_inicio < hora_fin)
 );
+
 
 -- Creacion Pais
 CREATE TABLE Pais (
