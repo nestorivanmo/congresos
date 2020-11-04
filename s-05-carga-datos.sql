@@ -42,16 +42,16 @@ insert into Domicilio (domicilio_id, calle, numero_exterior, numero_interior, co
 
 -- Inserción Lugar
 
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (57, 'Batz and Sons', 5);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (17, 'Romaguera and Sons', 17);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (91, 'Halvorson, Bailey and Ebert', 91);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (10, 'Bergstrom-Nikolaus', 10);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (89, 'VonRueden Inc', 89);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (73, 'Mohr, Kiehn and Denesik', 73);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (37, 'Fisher Group', 86);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (86, 'Boyle, Raynor and Hilll', 37);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (17, 'Green LLC', 17);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (26, 'Rice-Brown', 26);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (57, 'Batz and Sons', 5);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (17, 'Romaguera and Sons', 17);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (91, 'Halvorson, Bailey and Ebert', 91);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (10, 'Bergstrom-Nikolaus', 10);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (89, 'VonRueden Inc', 89);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (73, 'Mohr, Kiehn and Denesik', 73);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (37, 'Fisher Group', 86);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (86, 'Boyle, Raynor and Hilll', 37);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (17, 'Green LLC', 17);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (26, 'Rice-Brown', 26);
 
 -- Inserción Congreso
 
@@ -94,16 +94,16 @@ insert into Ponente (ponente_id, primer_nombre_ponente, segundo_nombre_ponente, 
 
 -- Inserción Ponencia
 
-insert into  (ponencia_id, nombre_ponencia) values (325, 'Schmeler, Renner and Reilly');
-insert into  (ponencia_id, nombre_ponencia) values (319, 'Toy, Christiansen and Skiles');
-insert into  (ponencia_id, nombre_ponencia) values (352, 'O''Kon-Jacobi');
-insert into  (ponencia_id, nombre_ponencia) values (592, 'Blanda, Frami and Bogisich');
-insert into  (ponencia_id, nombre_ponencia) values (103, 'Schumm, Cartwright and Corwin');
-insert into  (ponencia_id, nombre_ponencia) values (992, 'Goodwin-Breitenberg');
-insert into  (ponencia_id, nombre_ponencia) values (335, 'Lubowitz, Batz and Buckridge');
-insert into  (ponencia_id, nombre_ponencia) values (781, 'Yundt Group');
-insert into  (ponencia_id, nombre_ponencia) values (276, 'Buckridge Inc');
-insert into  (ponencia_id, nombre_ponencia) values (595, 'Bradtke, Jones and Franecki');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (325, 'Schmeler, Renner and Reilly');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (319, 'Toy, Christiansen and Skiles');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (352, 'O''Kon-Jacobi');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (592, 'Blanda, Frami and Bogisich');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (103, 'Schumm, Cartwright and Corwin');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (992, 'Goodwin-Breitenberg');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (335, 'Lubowitz, Batz and Buckridge');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (781, 'Yundt Group');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (276, 'Buckridge Inc');
+insert into  Ponencia (ponencia_id, nombre_ponencia) values (595, 'Bradtke, Jones and Franecki');
 
 -- Inserción Agenda Ponencia
 
