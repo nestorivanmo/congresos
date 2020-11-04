@@ -4,5 +4,4 @@
 --@Fecha de creación:     3/11/2020
 --@Descripción:           Crear la base de datos
 
-create database proyecto1_congresos_003;
-\c proyecto1_congresos_003;
+drop database if exists proyecto1_congresos_003;
