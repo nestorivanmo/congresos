@@ -4,7 +4,7 @@
 --@Fecha de creación:     3/11/2020
 --@Descripción:           Procedimiento almacenado para la inserción de registros
 
-DROP FUNCTION IF EXISTS sp_inserta(integer,character varying,date,date,integer);
+DROP FUNCTION IF EXISTS sp_inserta(integer, character varying, date, date, integer);
 
 CREATE OR REPLACE FUNCTION sp_inserta(IN congreso_id int, IN nombre_congreso varchar, IN fecha_inicio_congreso DATE, IN fecha_fin_congreso DATE, IN lugar_id_ins int) RETURNS integer
 AS $$

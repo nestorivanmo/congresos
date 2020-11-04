@@ -81,7 +81,7 @@ CREATE TABLE Ponente(
 
     CONSTRAINT PONENTE_institucion_id_fk
         FOREIGN KEY (institucion_id)
-        REFERENCES Domicilio(institucion_id),
+        REFERENCES Institucion(institucion_id),
     CONSTRAINT PONENTE_domicilio_id_fk
         FOREIGN KEY (domicilio_id)
         REFERENCES Domicilio(domicilio_id)
@@ -115,7 +115,6 @@ CREATE TABLE AgendaPonencia (
         FOREIGN KEY (ponencia_id)
         REFERENCES Ponencia(ponencia_id)
 );
-
 
 -- Creacion Pais
 CREATE TABLE Pais (
