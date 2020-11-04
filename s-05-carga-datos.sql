@@ -42,16 +42,16 @@ insert into Domicilio (domicilio_id, calle, numero_exterior, numero_interior, co
 
 -- Inserción Lugar
 
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (57, 'Batz and Sons', 5);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (17, 'Romaguera and Sons', 17);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (91, 'Halvorson, Bailey and Ebert', 91);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (10, 'Bergstrom-Nikolaus', 10);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (89, 'VonRueden Inc', 89);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (73, 'Mohr, Kiehn and Denesik', 73);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (37, 'Fisher Group', 86);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (86, 'Boyle, Raynor and Hilll', 37);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (17, 'Green LLC', 17);
-insert into  (lugar_id, nombre_lugar, domicilio_id) values (26, 'Rice-Brown', 26);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (57, 'Batz and Sons', 5);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (17, 'Romaguera and Sons', 17);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (91, 'Halvorson, Bailey and Ebert', 91);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (10, 'Bergstrom-Nikolaus', 10);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (89, 'VonRueden Inc', 89);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (73, 'Mohr, Kiehn and Denesik', 73);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (37, 'Fisher Group', 86);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (86, 'Boyle, Raynor and Hilll', 37);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (17, 'Green LLC', 17);
+insert into  Lugar (lugar_id, nombre_lugar, domicilio_id) values (26, 'Rice-Brown', 26);
 
 -- Inserción Congreso
 
